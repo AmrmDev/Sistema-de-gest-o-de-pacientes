@@ -5,7 +5,7 @@ from .forms import PatientForm
 
 def patient_list(request):
     patients = Patient.objects.all()
-    return render(request, 'patients/patient_list.html', {'patients': patients})
+    return render(request, 'patients/patients_list.html', {'patients': patients})
 
 
 def patient_create(request):
@@ -16,7 +16,7 @@ def patient_create(request):
             return redirect('patient_list')
     else:
         form = PatientForm()
-        return render(request, 'patient_form.html', {'form': form})
+    return render(request, 'patients/patient_form.html', {'form': form})
     
 
 def patient_update(request, pk):
