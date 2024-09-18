@@ -1,16 +1,11 @@
-# Ambiente virtual
 venv/
 __pycache__/
 
-# Arquivos de configuração do editor
 *.vscode/
 
-# Arquivos de banco de dados
 *.sqlite3
 
-# Arquivos de log
 *.log
 
-# Outros arquivos que você não quer versionar
 *.pyc
 *.pyo
