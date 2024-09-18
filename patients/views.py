@@ -13,9 +13,10 @@ def patient_create(request):
         form = PatientForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('patient_list')
+            return redirect('success')
     else:
         form = PatientForm()
+        
     return render(request, 'patients/patient_form.html', {'form': form})
     
 
