@@ -4,7 +4,7 @@ class Diagnosis(models.Model):
     id = models.AutoField(primary_key=True)
     diagnosis = models.CharField(max_length=100)
     description = models.TextField(null=True, blank=True)
-    complexity = models.CharField(max_length=10, choices=[('B', 'Baixa'), ('M', 'Média'), ('A', 'Alta'), ('E', 'Extrema')])
+    complexity = models.CharField(max_length=10, choices=[('B', 'Baixa'), ('M', 'Média'), ('A', 'Alta'), ('E', 'Extrema')], blank=False, null=False, default='M')
 
     def __str__(self):
         return self.diagnosis
