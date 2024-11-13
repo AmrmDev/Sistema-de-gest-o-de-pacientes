@@ -1,38 +1,50 @@
-# Projeto UTI
+## Olá, Dev!  👋🏼
 
-## Descrição
 
-Este é um sistema de gestão de pacientes para UTI, desenvolvido em Django. O sistema permite que um médico gerencie informações de pacientes, incluindo adição, edição, visualização e exclusão de dados.
 
-## Funcionalidades ↕
+Esse é um projeto pessoal com a finalidade de aperfeiçoar habilidades em Django e Python. Sou um iniciante-intermediário em Python e atualmente estou estudando análise e desenvolvimento de sistemas na Universidade **São Judas Tadeu (USJT)**
 
-- Listar pacientes
-- Adicionar novos pacientes
-- Editar informações de pacientes existentes
-- Visualizar detalhes de cada paciente
-- Confirmar a exclusão de pacientes
+Sem mais apresentações, aqui vai uma breve explicação do sistema.
 
-## Tecnologias Utilizadas 🛠️
+##
 
-- Django
+## Projeto SGP (Sistema de Gerenciamento de Pacientes)
+
+O SGP tem a finalidade de gerenciar pacientes que estão localizados em unidades de terapia intensiva (U.T.I).
+
+O sistema visa a fácil comunicação e atualização de formulários e relatórios de pacientes internados. Suprindo a deficiência da baixa comunicação entre médicos durante a troca de plantão, facilitando a visualização das informações do paciente de uma maneira mais amigável, mas sem deixar o profissionalismo e cuidado médico de lado.
+
+# Funcionalidades
+- CRUD de pacientes: Permite criar, visualizar, atualizar e deletar informações de pacientes no sistema.
+
+- CRUD de formulários: Gerencia formulários associados aos pacientes, incluindo criação, visualização, edição e remoção.
+
+
+- CRUD de médicos: Controle sobre os médicos cadastrados no sistema, com a possibilidade de adicionar, editar, visualizar e excluir médicos.
+
+
+- _**(FUTURO UPDATE)**_ - Chat com IA para medicações: Funcionalidade planejada para oferecer uma interface de chat baseada em inteligência artificial, voltada para o fornecimento de informações sobre medicações.
+
+##
+
+## Tecnologias usadas
 - Python
-- HTML/CSS
+- JavaScript
+- Django
+- SQLite3 (PostgreSQL)
+- HTML 5
+- CSS 3
 
-## Futuros Updates 🆕
+## Aviso de uso
 
-Planejo adicionar novas funcionalidades ao sistema, incluindo:
+Este projeto é desenvolvido **exclusivamente** para fins de estudo pessoal e aprendizado. **Não é permitido o uso comercial, distribuição ou cópia do código sem permissão expressa.**
 
-- Melhoria na interface do usuário
-- Funcionalidades adicionais para gerenciamento de médicos
-- Integração com serviços de nuvem para armazenamento e backup de dados
+## Agradecimentos
 
-O projeto será hospedado na nuvem, proporcionando acesso remoto e facilitando a colaboração entre médicos.
+- **PycodeBR:** Agradeço pelos ensinamentos valiosos no curso **Django Master**, que contribuíram muito para o meu aprendizado.
 
 
-## Instalação
+- **Felipe Deschamps:** Sou grato pela disciplina e pelos insights que ajudaram a melhorar minha compreensão de conceitos importantes.
 
-Para instalar e executar este projeto, siga os passos abaixo:
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/AmrmDev/Sistema-de-gest-o-de-pacientes
+- **Prof. Alessandro:** Agradeço pelo encorajamento constante nos estudos, sempre me motivando a seguir em frente.
